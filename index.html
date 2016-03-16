@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
@@ -10,49 +11,342 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>Sergioofarrill.github.io by sergioofarrill</title>
-  </head>
+    <title>Sergio O'Farrill</title>
+</head>
 
-  <body>
+<body>
     <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1>Sergioofarrill.github.io</h1>
-          <h2></h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/sergioofarrill" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h1>
-<a id="sergio-ofarrill" class="anchor" href="#sergio-ofarrill" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sergio O'Farrill</h1>
-
-<h2>
-<a id="front-end-developer--digital-designer" class="anchor" href="#front-end-developer--digital-designer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Front end Developer / Digital Designer</h2>
-
-<h4>
-<a id="sergioofarrillmecom" class="anchor" href="#sergioofarrillmecom" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="mailto:sergioofarrill@me.com">sergioofarrill@me.com</a>
+        <div class="inner">
+            <header>
+                <div class="avatar alignLeft">
+                  <img class="avatar-img" src="images/avatar.jpg" width="150px" ></img>
+                </div>
+                <div class="alignLeft page-title">
+                <h1>Sergio O'Farrill</h1>
+                <h4>
+<a id="front-end-developer--digital-designer" class="anchor" href="#front-end-developer--digital-designer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Front end Developer / Digital Designer</h4>
+            </div>
+            <div class="clearFloat"></div>
+            </header>
+            <section id="downloads" class="clearfix">
+                <a href="https://github.com/sergioofarrill" id="view-on-github" class="button"><span>View on GitHub</span></a>
+            </section>
+            <hr>
+            <section id="main_content">
+                
+                
+                <h4>
 </h4>
+                <h2>Work</h2>
+                <ul>
+                    <li><a href="http://gloveworxusa.com" target="_blank">gloveworxusa.com</a></li>
+                    <li><a href="http://patoma.com" target="_blank">patoma.com</a></li>
+                    <li><a href="http://mcsaatchi-share.com" target="_blank">mcsaatchi-share.com</a></li>
+                    <li><a href="http://forbescapitalsolutions.com" target="_blank">forbescapitalsolutions.com</a></li>
+                    <li><a href="http://cuttothecontent.com" target="_blank">cuttothecontent.com</a></li>
+                </ul>
+            </section>
+            <section class="secondary_content">
+              <h2>Code</h2>
+              <span class="comment">Clips and stuff</span>
+<p>
+  <h3>htaccess</h3>
+  <code>
+   # password protect site
+  <br/><br/>AuthUserFile /var/www/vhosts/hspotdev.com/americanauctioneers.hspotdev.com/.htpasswd
+ <br/>AuthName "Password Protected"
+ <br/>AuthType Basic
+ <br/>require valid-userGo to 
+  <span class"comment">for htpassword http://www.htaccesstools.com/htpasswd-generator/</span><br/>
+  <br/># redirect your entire website to HP
+  <br/><br/>RewriteEngine on
+  <br/>RewriteCond %{REQUEST_FILENAME} !-f
+  <br/>RewriteCond %{REQUEST_FILENAME} !-d
+  <br/>RewriteRule .? http://mcsaatchi-share.com/dev/patoma/ [R=301,L]
+  <br/>rewriteRule ^/index\\.php$ http://mcsaatchi-share.com/dev/patoma/ [R=301,L]
+  </code>
+</p>
+<p>
+<h3>Lorem</h3>
+              <code>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </code>
+</p>
+<p>
+  <h3>Fix for mysql on local enviroment mac</h3>
+  <code>
+    sudo chown -R _mysql:wheel /usr/local/mysql/data
+  </code>
+</p>
+<p>
+<h3>Reset</h3>
+              <code>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+ol, ul {
+  list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+blockquote, q {
+  quotes: "" "";
+}
+              </code> 
+</p><p>
+  <h3>Animate Header</h3>
+  <code>
+     
+    jQuery(function(){
+        jQuery('#header-content-wrapper').data('size','big');
+    });
 
-<ul>
-<li><a href="http://mcsaatchi-share.com">mcsaatchi-share.com</a></li>
-<li><a href="http://gloveworxusa.com">gloveworxusa.com</a></li>
-<li><a href="http://forbescapitalsolutions.com">forbescapitalsolutions.com</a></li>
-<li><a href="http://cuttothecontent.com">cuttothecontent.com</a></li>
-</ul>
-        </section>
+    jQuery(window).scroll(function(){
+        if($(document).scrollTop() > 50)
+        {
+            if(jQuery('#header-content-wrapper').data('size') == 'big')
+            {
+                jQuery('#header-content-wrapper').data('size','small');
+                jQuery('#primary-menu > ul.menu > li > a').css('padding-top','12px');
+                jQuery('aside#header_btn_widget .book-now-button').css('margin-top', '3px');
+                jQuery('#site-logo a img').css('height','35px');
+                jQuery('#site-logo').css('padding-top','0px' );
+                jQuery('#header-content-wrapper').stop().animate({
+                    height:'40px'
+                },600);
+                jQuery('#site-logo a img').stop().animate({
+                    height:'35px'
+                },600);
+            }
+        }
+        else
+        {
+            if(jQuery('#header-content-wrapper').data('size') == 'small')
+            {
+                jQuery('#header-content-wrapper').data('size','big');
+                jQuery('#primary-menu > ul.menu > li > a').css('padding-top','60px');
+                jQuery('aside#header_btn_widget .book-now-button').css('margin-top', '36px');
+                jQuery('#site-logo a img').css('height','65px');
+                jQuery('#site-logo').css('padding-top','10px' );
+                jQuery('#header-content-wrapper').stop().animate({
+                    height:'75px'
+                },600);
+                jQuery('#site-logo a img').stop().animate({
+                    height:'65px'
+                },600);//animate Header
+            }  
+        }
+    });
+  </code>
+</p><p>
+  <h3>YT Player</h3>
+  <code>
+    
+    // Page padding adjustment
+      window.adjustPagePadding = function(){
+        // Make sure that the page content sits perfectly below the header
+        var padding = jQuery('#header').height() - jQuery('#main').offset().top;
 
-        <footer>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+        // Not sure what causes an extra 40px on the HP
+        if(jQuery('body').is('.home')){
+            padding -= 40;
+        }
 
-        
-      </div>
+        if(!isNaN(padding)){
+            jQuery('#main').css('padding-top',padding+'px');
+        }
+      }
+      window.adjustPagePadding();
+     $(window).on('resize load',window.adjustPagePadding);
+
+    // Home hero
+    var $home_hero_container = jQuery('.home-vid');
+    if($home_hero_container.length){
+        window.homeHero = {
+            'players':{
+                'touch':null,
+                'non_touch':null
+            },
+            'element_ids':{
+                'touch':'home-hero-touch',
+                'non_touch':'home-hero-non-touch'
+            },
+            'video_ids':{
+                'short':'http://gloveworxusa.com/wp-content/themes/fitpro-child/video/loop_1.mp4',
+                'long':'UV3ObzAoozQ'
+            }
+        };
+            // If YouTube API is not loaded, pull it in
+          if(!window.YT){
+              var tag = document.createElement('script');
+              tag.src = "https://www.youtube.com/iframe_api";
+              var firstScriptTag = document.getElementsByTagName('script')[0];
+              firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+          }
+
+          // Replace container contents with elements for the players
+          $home_hero_container.html('<div id="' + window.homeHero.element_ids.touch + '"></div><div id="' + window.homeHero.element_ids.non_touch + '">non-touch</div>');
+
+          // Wait until YouTube API is init'd
+          var tmr_poll = window.setInterval(function(){
+            if(window.YT&&YT.Player){
+                window.clearInterval(tmr_poll);
+
+                var is_touch_device = /iPhone|iPad|iPod|Android/.test(navigator.userAgent);
+
+                // Create non-touch-device player
+                if(!is_touch_device){
+                    var $non_touch_device_player = jQuery('#'+window.homeHero.element_ids.non_touch);
+                    $non_touch_device_player.html('<video autoplay loop width="120%" height="120%"><source src="' + window.homeHero.video_ids['short'] + '" type="video/mp4" /></video>');
+
+                    homeHero.players.non_touch = $non_touch_device_player.find('video');
+                    homeHero.players.non_touch.on('play',function(){
+                        jQuery('#'+window.homeHero.element_ids.non_touch).addClass('loaded');
+ 
+                        // Auto pause after 10 mins to prevent memory leaks
+                        window.clearTimeout(window.tmr_pause_video);
+                        window.tmr_pause_video = window.setTimeout(function(){
+                            window.homeHero.players.non_touch[0].pause();
+                        },600000);
+                    });
+                }
+
+                // Create touch-device player
+                var playerVars = { 'rel':0, 'modestbranding': 0, 'showinfo':0 };
+                window.homeHero.players.touch = new YT.Player(window.homeHero.element_ids.touch, {
+                    height: '100%',
+                    width: '100%',
+                    videoId: window.homeHero.video_ids['long'],
+                    playerVars: playerVars,
+                    events: {
+                        onReady: function(e){
+                            window.resizeHomeHero();
+                        }
+                    }
+                });
+
+                window.resizeHomeHero();
+                window.adjustPagePadding();
+            }
+          },100);
+            
+          window.resizeHomeHero = function(){
+            var $container = jQuery('.home-vid');
+            var ratio = 9/16;
+
+            var $non_touch_device_player = jQuery('#'+window.homeHero.element_ids.non_touch);
+            var $touch_device_player = $container.find('#' + window.homeHero.element_ids.touch);
+
+            var mode = $touch_device_player.is(':visible')?'touch':'non-touch';
+
+            if(mode=='touch'){
+                var video_height = $container.width() * ratio;
+
+                // Touch device mode
+                $touch_device_player.css({
+                    'width':'100%',
+                    'height':video_height+'px',
+                    'margin-top':'0px',
+                    'margin-left':'0px'
+                });
+                $container.css({
+                    'width':'100%',
+                    'height':video_height+'px'
+                });
+
+                // If the non-touch-device video is playing, pause it
+                if(window.homeHero.players.non_touch && window.homeHero.players.non_touch.length && !window.homeHero.players.non_touch[0].paused){
+                    window.homeHero.players.non_touch[0].pause();
+                }
+            }else{
+                // Non-touch-device mode
+                var video_height = $non_touch_device_player.width() * ratio;
+                
+                // Make sure the container is not collapsed
+                var container_height = window.parseFloat($container.css('max-height'));
+                $container.css('height',container_height+'px');
+
+                // Center vertically within container
+                var differential = video_height - container_height;
+                $non_touch_device_player.css({
+                    'height':video_height+'px',
+                    'margin-top':Math.round(-differential/8) + 'px',
+                    'margin-left':Math.round(($container.width()-$non_touch_device_player.width()) / 2) + 'px'
+                });
+
+                // If the non-touch-device video is paused, play it
+                if(window.homeHero.players.non_touch && window.homeHero.players.non_touch.length && window.homeHero.players.non_touch[0].paused){
+                    window.homeHero.players.non_touch[0].play();
+                }
+
+                // If the touch-device video is playing, stop it
+                if(window.homeHero.players.touch && window.homeHero.players.touch.getPlayerState && window.homeHero.players.touch.getPlayerState()==YT.PlayerState.PLAYING){
+                    window.homeHero.players.touch.stopVideo();
+                }
+            }
+          }
+
+          $(window).on('resize',window.resizeHomeHero);
+
+          // Make sure the video plays only when the window is active
+          new windowFocusManager();
+          var $container = jQuery('.home-vid');
+          var $touch_device_player = $container.find('#' + window.homeHero.element_ids.touch);
+          $(window).on('mcsla-tabfocus mcsla-windowfocus',function(){
+                if(!$touch_device_player.is(':visible')){
+                    window.homeHero.players.non_touch[0].play();
+                }
+          });
+          $(window).on('mcsla-tabblur mcsla-windowblur',function(){
+                if(!$touch_device_player.is(':visible') && window.homeHero.players.non_touch){
+                    window.homeHero.players.non_touch[0].pause();
+                }
+          });
+    }
+  </code>
+</p>
+
+            </section>
+            <footer>
+                This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+            </footer>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
